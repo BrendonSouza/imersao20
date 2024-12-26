@@ -15,7 +15,7 @@ docker compose up -d
 Entre no container simulator:
 
 ```
-docker compose exec simulator bash
+docker compose exec -i simulator sh
 ```
 
 Rode o comando para executar o projeto:
@@ -23,5 +23,3 @@ Rode o comando para executar o projeto:
 ```
 go run cmd/simulator/main.go
 ```
-
-
