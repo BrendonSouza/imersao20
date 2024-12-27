@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Repositório do Django (admin dos vídeos)
+Repositório do Nest (Backend)
 
 ## Requerimentos
 
@@ -32,7 +32,7 @@ docker-compose up -d
 Entre no container do Nest.js e instale as dependências:
 
 ```bash
-docker-compose exec app bash
+docker-compose exec nest bash
 npm install
 ```
 
@@ -43,4 +43,3 @@ npm run start:dev
 ```
 
 As especificações das chamadas HTTP estão no arquivo `api.http`. Você pode usar a extensão `REST Client` do VSCode para fazer as chamadas.
-
